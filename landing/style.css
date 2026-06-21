@@ -1,3 +1,8 @@
+/* =========================================================
+   LEANDRA MICHELY — PORTFOLIO LANDING
+   Tema: marketplace digital dark + glow laranja
+   ========================================================= */
+
 :root {
   /* cores */
   --bg-base: #0b0b0c;
@@ -13,7 +18,8 @@
   --glass: rgba(24, 19, 15, 0.55);
 
   /* tipografia */
-  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-display: "Fredoka", "Inter", sans-serif;
+  --font-label: "Space Grotesk", "Inter", sans-serif;
   --font-body: "Inter", sans-serif;
 
   /* layout */
@@ -105,7 +111,7 @@ a {
   align-items: center;
   gap: 6px;
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 300;
   font-size: 1.15rem;
   letter-spacing: 0.04em;
 }
@@ -202,7 +208,7 @@ a {
 }
 
 .side-label {
-  font-family: var(--font-display);
+  font-family: var(--font-label);
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -255,7 +261,7 @@ a {
   position: absolute;
   top: 12px;
   right: 16px;
-  font-family: var(--font-display);
+  font-family: var(--font-label);
   font-size: 0.65rem;
   letter-spacing: 0.08em;
   color: var(--accent-soft);
@@ -282,7 +288,7 @@ a {
 
 .social-card__name {
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1.05rem;
 }
 
@@ -380,7 +386,7 @@ a {
 
 .profile__name {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 300;
   font-size: clamp(2.1rem, 4vw, 2.8rem);
   letter-spacing: -0.01em;
   line-height: 1.1;
@@ -452,3 +458,4 @@ a {
     font-size: 1.9rem;
   }
 }
+
