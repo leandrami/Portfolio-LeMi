@@ -5,6 +5,14 @@
    suas próprias regras em arquivos .css isolados.
    ========================================================= */
 
+@font-face {
+  font-family: "Fashion Fetish";
+  src: url("/fonts/FashionFetish-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* cores */
   --bg-base: #0b0b0c;
@@ -20,7 +28,7 @@
   --glass: rgba(24, 19, 15, 0.55);
 
   /* tipografia */
-  --font-display: "Fredoka", "Inter", sans-serif;
+  --font-display: "Fashion Fetish", "Inter", sans-serif;
   --font-label: "Space Grotesk", "Inter", sans-serif;
   --font-body: "Inter", sans-serif;
 

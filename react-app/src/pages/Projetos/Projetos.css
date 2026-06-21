@@ -15,7 +15,7 @@
 
 .projetos__title {
   font-family: var(--font-display);
-  font-weight: 300;
+  font-weight: 400;
   font-size: clamp(2rem, 4vw, 2.7rem);
   margin-bottom: 14px;
 }

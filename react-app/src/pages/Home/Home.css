@@ -122,8 +122,9 @@
 
 .home__social-name {
   font-family: var(--font-display);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.05rem;
+  letter-spacing: 0.05em;
 }
 
 .home__social-handle {
@@ -162,7 +163,7 @@
 .home__profile {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .home__profile-eyebrow {
@@ -225,9 +226,9 @@
 
 .home__profile-name {
   font-family: var(--font-display);
-  font-weight: 300;
-  font-size: clamp(2.1rem, 4vw, 2.8rem);
-  letter-spacing: -0.01em;
+  font-weight: 400;
+  font-size: clamp(2.1rem, 3vw, 2.1rem);
+  letter-spacing: -0em;
   line-height: 1.1;
 }
 
