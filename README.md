@@ -1,5 +1,3 @@
-# Portfólio — Leandra Michely
-
 ## 📁 O que tem aqui
 
 ```
@@ -62,8 +60,9 @@ npm run dev
 | `--bg-base`       | `#0b0b0c`                      |
 | `--accent`        | `#ff7a18`                      |
 | `--accent-soft`   | `#ffb066`                      |
-| `--font-display`  | Space Grotesk                  |
-| `--font-body`     | Inter                          |
+| `--font-display`  | Fredoka (fonte principal de títulos/UI) |
+| `--font-label`    | Space Grotesk (só nas tags "SOCIAL · 01/02" e "// conecte-se") |
+| `--font-body`     | Inter (parágrafos e textos auxiliares) |
 
 Fontes carregadas via Google Fonts. Glow laranja aplicado via `box-shadow`
 + `filter: blur()` em elementos de destaque (anel do perfil, CTAs, bordas
