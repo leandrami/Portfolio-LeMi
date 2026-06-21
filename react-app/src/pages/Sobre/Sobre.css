@@ -1,0 +1,102 @@
+.sobre {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 50px clamp(20px, 5vw, 48px) 60px;
+}
+
+.sobre__eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+  margin-bottom: 10px;
+}
+
+.sobre__title {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  margin-bottom: 18px;
+}
+
+.sobre__title span {
+  color: var(--accent);
+}
+
+.sobre__lead {
+  max-width: 620px;
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.sobre__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 48px;
+  max-width: 620px;
+}
+
+.sobre__stat {
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  background: var(--glass);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sobre__stat-value {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 1.7rem;
+  color: var(--accent-soft);
+}
+
+.sobre__stat-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.sobre__skills {
+  margin-top: 56px;
+}
+
+.sobre__skills-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.sobre__skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+.sobre__skill-tag {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  border: 1px solid var(--border-soft);
+  border-radius: 999px;
+  padding: 8px 16px;
+  background: linear-gradient(155deg, rgba(255, 122, 24, 0.07), var(--glass));
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.sobre__skill-tag:hover {
+  border-color: var(--border-strong);
+  box-shadow: 0 0 16px -4px var(--accent-glow);
+}
+
+@media (max-width: 560px) {
+  .sobre__stats {
+    grid-template-columns: 1fr;
+  }
+}

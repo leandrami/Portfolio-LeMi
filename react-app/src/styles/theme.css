@@ -1,0 +1,31 @@
+/* =========================================================
+   theme.css — tokens de design globais
+   Importado uma única vez em index.css.
+   Componentes/páginas usam estas variáveis, mas mantêm
+   suas próprias regras em arquivos .css isolados.
+   ========================================================= */
+
+:root {
+  /* cores */
+  --bg-base: #0b0b0c;
+  --bg-panel: #131110;
+  --accent: #ff7a18;
+  --accent-soft: #ffb066;
+  --accent-deep: #c75200;
+  --accent-glow: rgba(255, 122, 24, 0.35);
+  --text-primary: #f5efe6;
+  --text-muted: #9a948c;
+  --border-soft: rgba(255, 122, 24, 0.22);
+  --border-strong: rgba(255, 154, 73, 0.75);
+  --glass: rgba(24, 19, 15, 0.55);
+
+  /* tipografia */
+  --font-display: "Fredoka", "Inter", sans-serif;
+  --font-label: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* layout */
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --container: 1240px;
+}

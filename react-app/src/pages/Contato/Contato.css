@@ -1,0 +1,132 @@
+.contato {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 50px clamp(20px, 5vw, 48px) 60px;
+}
+
+.contato__eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+  margin-bottom: 10px;
+}
+
+.contato__title {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  margin-bottom: 14px;
+}
+
+.contato__lead {
+  max-width: 560px;
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.contato__content {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.contato__form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  background: var(--glass);
+  padding: 28px;
+}
+
+.contato__field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.contato__field input,
+.contato__field textarea {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  padding: 12px 14px;
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  font-family: var(--font-body);
+  resize: vertical;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contato__field input:focus,
+.contato__field textarea:focus {
+  outline: none;
+  border-color: var(--border-strong);
+  box-shadow: 0 0 0 3px rgba(255, 122, 24, 0.15);
+}
+
+.contato__submit {
+  align-self: flex-start;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--bg-base);
+  background: var(--accent);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 0 16px 1px var(--accent-glow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contato__submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 22px 4px var(--accent-glow);
+}
+
+.contato__success {
+  font-size: 0.85rem;
+  color: var(--accent-soft);
+}
+
+.contato__info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(155deg, rgba(255, 122, 24, 0.07), var(--glass));
+  padding: 28px;
+}
+
+.contato__info-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.contato__info-link {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  transition: color 0.25s ease;
+}
+
+.contato__info-link:hover {
+  color: var(--accent-soft);
+}
+
+@media (max-width: 760px) {
+  .contato__content {
+    grid-template-columns: 1fr;
+  }
+}
