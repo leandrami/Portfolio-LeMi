@@ -5,7 +5,7 @@
 }
 
 .sobre__eyebrow {
-  font-family: var(--font-display);
+  font-family: var(--font-label);
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -50,7 +50,7 @@
 }
 
 .sobre__stat-value {
-  font-family: var(--font-display);
+  font-family: var(--font-label);
   font-weight: 400;
   font-size: 1.7rem;
   color: var(--accent-soft);

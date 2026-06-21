@@ -2,7 +2,7 @@ import "./ProjectCard.css";
 
 /**
  * ProjectCard
- * Cartão reutilizável para exibir um projeto no estilo "marketplace digital".
+ * Cartão reutilizável para exibir um projeto.
  *
  * Props:
  * - id: string            -> identificador curto exibido no canto (ex: "01")

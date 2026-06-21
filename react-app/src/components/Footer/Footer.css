@@ -12,11 +12,13 @@
 .footer__text {
   font-size: 0.82rem;
   color: var(--text-muted);
+  font-family: var(--font-label);
 }
 
 .footer__links {
   display: flex;
   gap: 22px;
+  font-family: var(--font-label);
 }
 
 .footer__links a {

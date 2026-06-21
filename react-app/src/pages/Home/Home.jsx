@@ -4,7 +4,7 @@ const SOCIALS = [
 {
 id: "01",
 name: "GitHub",
-handle: "@leandramichely",
+handle: "@leandrami",
 href: "https://github.com/leandrami",
 icon: (
     <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-hidden="true">
@@ -15,8 +15,8 @@ icon: (
 {
 id: "02",
 name: "LinkedIn",
-handle: "/in/leandramichely",
-href: "https://www.linkedin.com/in/leandra-michely/",
+handle: "/in/leandra-michely",
+href: "https://www.linkedin.com/in/leandra-michely",
 icon: (
     <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
     <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z" />
@@ -55,9 +55,7 @@ return (
     ))}
 
     <p className="home__side-caption">
-        Disponível 24/7 para mensagens —
-        <br />
-        respondo em até um dia útil.
+        Construindo interfaces modernas <br /> unindo Design e Código.
     </p>
     </section>
 
@@ -72,17 +70,18 @@ return (
             role="img"
             aria-label="Foto de perfil de Leandra Michely"
         >
-            <svg viewBox="0 0 200 200" width="100%" height="100%" aria-hidden="true">
+        <img class="home__img" src="/images/home-profile.png" alt="Foto Leandra" />  
+        {/*    <svg viewBox="0 0 200 200" width="100%" height="100%" aria-hidden="true">
             <circle cx="100" cy="78" r="38" fill="rgba(255,154,73,0.18)" />
             <path d="M30 190c8-44 38-66 70-66s62 22 70 66" fill="rgba(255,154,73,0.18)" />
-            </svg>
+            </svg> */}
         </div>
         <span className="home__profile-ring" />
-        <span className="home__profile-id">#0001</span>
+        <span className="home__profile-id">BR · 2026</span>
         </div>
 
         <h3 className="home__profile-name">LEANDRA MICHELY</h3>
-        <p className="home__profile-role">Aspiring Full Stack Developer</p>
+        <p className="home__profile-role">ASPIRING SOFTWARE DEVELOPER<br />FRONT-END • UI DESIGN • WEB</p>
     </div>
     </section>
 </main>
@@ -90,3 +89,4 @@ return (
 }
 
 export default Home;
+

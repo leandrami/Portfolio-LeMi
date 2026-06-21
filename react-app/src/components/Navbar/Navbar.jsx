@@ -2,10 +2,10 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const LINKS = [
-  { label: "Home", path: "/" },
-  { label: "Sobre", path: "/sobre" },
-  { label: "Projetos", path: "/projetos" },
-  { label: "Contato", path: "/contato" },
+  { label: "HOME", path: "/" },
+  { label: "SOBRE", path: "/sobre" },
+  { label: "PROJETOS", path: "/projetos" },
+  { label: "CONTATO", path: "/contato" },
 ];
 
 function Navbar() {
