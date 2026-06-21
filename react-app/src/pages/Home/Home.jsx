@@ -64,7 +64,7 @@ return (
 {/* Perfil */}
     <section className="home__side home__side--right" aria-label="Perfil">
     <div className="home__profile">
-        <p className="home__profile-eyebrow">Aspiring Full Stack Developer</p>
+        {/*   <p className="home__profile-eyebrow">Aspiring Full Stack Developer</p>   */}
 
         <div className="home__profile-frame">
         <div
@@ -81,8 +81,8 @@ return (
         <span className="home__profile-id">#0001</span>
         </div>
 
-        <h3 className="home__profile-name">Leandra Michely</h3>
-        <p className="home__profile-role">construindo interfaces com personalidade</p>
+        <h3 className="home__profile-name">LEANDRA MICHELY</h3>
+        <p className="home__profile-role">Aspiring Full Stack Developer</p>
     </div>
     </section>
 </main>

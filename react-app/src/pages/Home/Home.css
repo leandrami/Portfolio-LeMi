@@ -175,8 +175,8 @@
 
 .home__profile-frame {
   position: relative;
-  width: 220px;
-  height: 220px;
+  width: 190px;
+  height: 190px;
   margin-bottom: 26px;
 }
 
@@ -227,7 +227,7 @@
 .home__profile-name {
   font-family: var(--font-display);
   font-weight: 400;
-  font-size: clamp(2.1rem, 3vw, 2.1rem);
+  font-size: clamp(2rem, 3vw, 2rem);
   letter-spacing: -0em;
   line-height: 1.1;
 }
