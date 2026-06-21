@@ -61,7 +61,7 @@ npm run dev
 | `--accent`        | `#ff7a18`                      |
 | `--accent-soft`   | `#ffb066`                      |
 | `--font-display`  | Fredoka (fonte principal de títulos/UI) |
-| `--font-label`    | Space Grotesk (só nas tags "SOCIAL · 01/02" e "// conecte-se") |
+| `--font-label`    | Space Grotesk |
 | `--font-body`     | Inter (parágrafos e textos auxiliares) |
 
 Fontes carregadas via Google Fonts. Glow laranja aplicado via `box-shadow`
