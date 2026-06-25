@@ -26,9 +26,7 @@ function Sobre() {
           Olá, eu sou a <span>Leandra</span>.
         </h1>
         <p className="sobre__lead">
-          Desenvolvedora front-end apaixonada por transformar ideias em interfaces
-          modernas, acessíveis e com personalidade própria. Gosto de unir
-          performance técnica com um visual que conta uma história.
+          Graduada em Design Gráfico pelo IFPE, pós-graduada em UX Design, atualmente cursando Análise e Desenvolvimento de Sistemas (ADS) e ampliando meus conhecimentos em desenvolvimento de software, DevOps e tecnologia.
         </p>
       </header>
 
