@@ -1,4 +1,4 @@
-## 📁 O que tem aqui
+## 📁 Descrição do Projeto
 
 ```
 portfolio-leandra/
