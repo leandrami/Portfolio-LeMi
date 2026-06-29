@@ -26,7 +26,7 @@ portfolio-leandra/
             └── ProjectCard/ProjectCard.jsx + ProjectCard.css
 ```
 
-## 🧠 Arquitetura — explicação curta
+## 🧠 Arquitetura
 
 - **`landing/`** é o protótipo isolado em HTML/CSS puro, usado para validar o
   visual antes de qualquer código React — é exatamente o layout pedido
@@ -45,14 +45,6 @@ portfolio-leandra/
   `tags`, `link`) e é usado em loop na página `Projetos`, no estilo "card de
   marketplace" da referência (tag de id, badge de status, CTA em pílula).
 
-## ▶️ Rodando o projeto React
-
-```bash
-cd react-app
-npm install
-npm run dev
-```
-
 ## 🎨 Tema visual
 
 | Token            | Valor                          |
@@ -64,6 +56,4 @@ npm run dev
 | `--font-label`    | Space Grotesk |
 | `--font-body`     | Inter (parágrafos e textos auxiliares) |
 
-Fontes carregadas via Google Fonts. Glow laranja aplicado via `box-shadow`
-+ `filter: blur()` em elementos de destaque (anel do perfil, CTAs, bordas
-no hover dos cards).
+
